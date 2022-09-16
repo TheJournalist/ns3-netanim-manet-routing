@@ -1,0 +1,54 @@
+Performing C++ SOURCE FILE Test HAVE_UINT128_T failed with the following output:
+Change Dir: /home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3cb05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3cb05.dir/build.make CMakeFiles/cmTC_3cb05.dir/build
+gmake[1]: Entering directory '/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3cb05.dir/src.cxx.o
+/usr/bin/g++ -DHAVE_UINT128_T  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_3cb05.dir/src.cxx.o -c /home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/src.cxx:5:18: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+    5 |             if ((uint128_t *) 0) return 0;
+      |                  ^~~~~~~~~
+      |                  uint8_t
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/src.cxx:5:29: error: expected primary-expression before ‘)’ token
+    5 |             if ((uint128_t *) 0) return 0;
+      |                             ^
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/src.cxx:5:30: error: expected ‘)’ before numeric constant
+    5 |             if ((uint128_t *) 0) return 0;
+      |                ~             ^~
+      |                              )
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/src.cxx:6:25: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+    6 |             if (sizeof (uint128_t)) return 0;
+      |                         ^~~~~~~~~
+      |                         uint8_t
+gmake[1]: *** [CMakeFiles/cmTC_3cb05.dir/build.make:78: CMakeFiles/cmTC_3cb05.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3cb05/fast] Error 2
+
+
+Source file was:
+#include <stdint.h>
+       int main(int argc, char **argv)
+         {
+            (void)argc; (void)argv;
+            if ((uint128_t *) 0) return 0;
+            if (sizeof (uint128_t)) return 0;
+            return 1;
+         }
+Determining if the include file net/netmap_user.h exists failed with the following output:
+Change Dir: /home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57ae3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57ae3.dir/build.make CMakeFiles/cmTC_57ae3.dir/build
+gmake[1]: Entering directory '/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57ae3.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++   -fPIE -std=gnu++17 -o CMakeFiles/cmTC_57ae3.dir/CheckIncludeFile.cxx.o -c /home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: net/netmap_user.h: No such file or directory
+    1 | #include <net/netmap_user.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_57ae3.dir/build.make:78: CMakeFiles/cmTC_57ae3.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_57ae3/fast] Error 2
+
+
+

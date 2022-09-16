@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/CMakeFiles/netanim-populate"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/CMakeFiles/netanim-populate.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/CMakeFiles/netanim-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-build.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-download.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-install.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-test.rule"
+		},
+		{
+			"file" : "/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/netanim-populate-prefix/src/netanim-populate-stamp/netanim-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"netanim-populate"
+		],
+		"name" : "netanim-populate"
+	}
+}

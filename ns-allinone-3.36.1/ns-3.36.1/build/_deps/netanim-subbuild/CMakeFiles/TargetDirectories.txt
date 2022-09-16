@@ -1,0 +1,3 @@
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/CMakeFiles/netanim-populate.dir
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/CMakeFiles/edit_cache.dir
+/home/ns3/ns-allinone-3.36.1/ns-3.36.1/build/_deps/netanim-subbuild/CMakeFiles/rebuild_cache.dir
