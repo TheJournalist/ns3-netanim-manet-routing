@@ -1,0 +1,3 @@
+repository='https://gitlab.com/nsnam/netanim.git'
+module=''
+tag='origin'
